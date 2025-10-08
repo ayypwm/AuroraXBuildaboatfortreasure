@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2zu/OPEN-SOURCE-UI-ROBLOX/refs/heads/main/X2ZU%20UI%20ROBLOX%20OPEN%20SOURCE/DummyUi-leak-by-x2zu/fetching-main/Tools/Framework.luau"))()
 local Window = Library:Window({
     Title = "AuroraX",
-    Desc = "???",
+    Desc = "support:mewcity111@gmail.com",
     Icon = 133631767716010,
     Theme = "Dark",
     Config = {
@@ -10,7 +10,7 @@ local Window = Library:Window({
     },
     CloseUIButton = {
         Enabled = true,
-        Text = "show AuroraX"
+        Text = "Show AuroraX"
     }
 })
 
@@ -149,8 +149,8 @@ task.spawn(function()
 end)
 
 TabFarm:Toggle({
-    Title = "Auto Farm Coin",
-    Desc = "On/Off Auto Farm Coin",
+    Title = "Auto Farm gold",
+    Desc = "On/Off Auto Farm gold",
     Value = false,
     Callback = function(v)
         autoFarmEnabled = v
