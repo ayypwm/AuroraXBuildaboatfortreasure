@@ -1,12 +1,12 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2zu/OPEN-SOURCE-UI-ROBLOX/refs/heads/main/X2ZU%20UI%20ROBLOX%20OPEN%20SOURCE/DummyUi-leak-by-x2zu/fetching-main/Tools/Framework.luau"))()
 local Window = Library:Window({
     Title = "AuroraX",
-    Desc = "Build a Boat Edition v8",
+    Desc = "???",
     Icon = 133631767716010,
     Theme = "Dark",
     Config = {
         Keybind = Enum.KeyCode.LeftControl,
-        Size = UDim2.new(0, 500, 0, 400)
+        Size = UDim2.new(0, 200, 0, 300)
     },
     CloseUIButton = {
         Enabled = true,
@@ -171,22 +171,4 @@ TabInfo:Button({
     Callback = function()
         setclipboard("https://www.tiktok.com/@mew_city1090?_t=ZS-90N47llLYUU&_r=1")
     end
-})
-
-TabInfo:TextLabel({
-    Title = "Chia sẻ từ tác giả (Việt):",
-    Desc = "Mình biết nó không phải script tốt nhất nhưng nó dùng được :3",
-    Small = true
-})
-
-TabInfo:TextLabel({
-    Title = "Author's thoughts (English):",
-    Desc = "I know it's not the best script, but it works :3",
-    Small = true
-})
-
-TabInfo:TextLabel({
-    Title = "作者の想い (日本語):",
-    Desc = "最高のスクリプトではないかもしれませんが、使えますよ :3",
-    Small = true
 })
